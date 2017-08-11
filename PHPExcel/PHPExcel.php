@@ -8,5 +8,5 @@
 	$objSheet->setCellValue("A2","张三")->setCellValue("B2","50");
 	$objWriter=PHPExcel_IOFactory::createWriter($objPHPExcel,"Excel2007");
 	$objWriter->save($dir."/demo.xlsx");
-
+	
 ?>
